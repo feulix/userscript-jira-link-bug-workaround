@@ -9,7 +9,7 @@ https://jira.atlassian.com/browse/JSWCLOUD-21187
 
 ### Firefox
 1. Install the [Greasemonkey extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) 
-2. Click [here](https://github.com/feulix/userscript-missiveapp-redirect/raw/main/Open%20all%20links%20from%20mail.missiveapp.com%20in%20app.user.js) to install the script
+2. Click [here](https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js) to install the script
 3. ??
 4. Profit!
 
@@ -18,7 +18,7 @@ https://jira.atlassian.com/browse/JSWCLOUD-21187
 2. Enable extension in Safari > Preferences > Extensions
 3. Hit the `</>` button in the toolbar
 4. Create a new Userscript by hitting the + button at the top left of the window
-5. Paste the code below
+5. Paste the code from [here](https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js)
 6. Hit Save
 7. ??
 8. Profit!
