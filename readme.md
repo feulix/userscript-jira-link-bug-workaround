@@ -17,8 +17,8 @@ https://jira.atlassian.com/browse/JSWCLOUD-21187
 1. Install the [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) 
 2. Enable extension in Safari > Preferences > Extensions
 3. Hit the `</>` button in the toolbar
-4. Create a new Userscript by hitting the + button at the top left of the window
-5. Paste the code from [here](https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js)
+4. Hit the + button at the top left of the window and select `New Remote`
+5. Paste [this url](https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js)
 6. Hit Save
 7. ??
 8. Profit!
