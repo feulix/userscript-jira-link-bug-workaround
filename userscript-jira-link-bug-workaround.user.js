@@ -8,10 +8,6 @@
 // @run-at       document-start
 // ==/UserScript==
 
-// Confluence has an old version of jQuery in AJS.$
-// lets expose a newer version of jquery to global scope
-var $, jQuery;
-$ = jQuery = window.jQuery;
 
 // alternative to DOMContentLoaded
 document.onreadystatechange = function () {
@@ -21,7 +17,7 @@ document.onreadystatechange = function () {
 }
               
 function replaceLinks() {
-  
+
   console.log('User Script is replacing links');
   var anchors = document.getElementsByTagName("a");
 
