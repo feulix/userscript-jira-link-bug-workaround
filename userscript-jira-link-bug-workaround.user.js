@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Jira board link bug workaround
-// @version  1.1.1
+// @version  1.1.2
 // @updateURL	https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js
 // @downloadURL	https://github.com/feulix/userscript-jira-link-bug-workaround/raw/main/userscript-jira-link-bug-workaround.user.js
 // @grant    none
