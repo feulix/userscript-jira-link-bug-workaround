@@ -12,7 +12,6 @@
 
 // alternative to DOMContentLoaded
 document.onreadystatechange = function () {
-    console.log('document.readyState',document.readyState)
     if (document.readyState == "interactive") {
   	    replaceLinks();
 	}
@@ -25,7 +24,6 @@ function replaceLinks() {
 
   console.log('User Script is replacing links');
   var anchors = document.getElementsByTagName("a");
-
   for (var i = 0; i < anchors.length; i++) {
       anchors[i].href = anchors[i].href.replace( "useStoredSettings=true", "useStoredSettings=false" );
   }
